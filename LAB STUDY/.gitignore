@@ -1,0 +1,24 @@
+# ignore all .gz files
+*.gz
+*.tar
+*.path
+*.pyc
+*.csv
+*.pth
+*.xml
+
+#ignore cifar-10-python.tar.gz file
+c4/cifar-100-python.tar.gz
+cifar-100-python
+
+# specify a folder with slash in the end
+# ignore all files in any directory named temp
+cifar-10-python/
+
+#c7. U-NET data 
+annotations/
+images/
+
+#c9. Let there be color
+Images/
+
